@@ -8,12 +8,10 @@
     "start": "astro dev --host",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro",
-    "backend": "node ./backend/index.js"
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/svelte": "^1.0.2",
-    "@prisma/client": "^4.7.1",
     "astro": "^1.6.12",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
@@ -21,7 +19,6 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
-    "prisma": "^4.7.1",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
   }
