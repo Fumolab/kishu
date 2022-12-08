@@ -1,8 +1,22 @@
 {
-  "name": "@example/basics",
-  "type": "module",
+  "name": "kishu",
   "version": "0.0.1",
-  "private": true,
+  "description": "Frontend for Kishu",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fumolab/kishu.git"
+  },
+  "keywords": [
+    "frontend",
+    "kishu"
+  ],
+  "author": "Fumolab Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fumolab/kishu/issues"
+  },
+  "homepage": "https://github.com/fumolab/kishu#readme",
   "scripts": {
     "dev": "astro dev --host",
     "start": "astro dev --host",
