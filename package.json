@@ -19,7 +19,6 @@
     "homepage": "https://github.com/fumolab/kishu#readme",
     "scripts": {
         "dev": "astro dev --host",
-        "start": "astro dev --host",
         "build": "astro build",
         "preview": "astro preview",
         "prettier": "prettier --write --plugin-search-dir=. ."
