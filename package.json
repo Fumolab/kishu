@@ -1,39 +1,41 @@
 {
-  "name": "kishu",
-  "version": "0.0.1",
-  "description": "Frontend for Kishu",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fumolab/kishu.git"
-  },
-  "keywords": [
-    "frontend",
-    "kishu"
-  ],
-  "author": "Fumolab Team",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fumolab/kishu/issues"
-  },
-  "homepage": "https://github.com/fumolab/kishu#readme",
-  "scripts": {
-    "dev": "astro dev --host",
-    "start": "astro dev --host",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/svelte": "^1.0.2",
-    "astro": "^1.6.12",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "svelte": "^3.46.4"
-  },
-  "devDependencies": {
-    "@types/node": "^18.11.11",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.4"
-  }
+    "name": "kishu",
+    "version": "0.0.1",
+    "description": "Frontend for Kishu",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fumolab/kishu.git"
+    },
+    "keywords": [
+        "frontend",
+        "kishu"
+    ],
+    "author": "Fumolab Team",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fumolab/kishu/issues"
+    },
+    "homepage": "https://github.com/fumolab/kishu#readme",
+    "scripts": {
+        "dev": "astro dev --host",
+        "start": "astro dev --host",
+        "build": "astro build",
+        "preview": "astro preview",
+        "prettier": "prettier --write --plugin-search-dir=. ."
+    },
+    "dependencies": {
+        "@astrojs/svelte": "^1.0.2",
+        "astro": "^1.6.12",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "svelte": "^3.46.4"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.11",
+        "prettier": "^2.8.1",
+        "prettier-plugin-astro": "^0.7.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^4.9.4"
+    }
 }
