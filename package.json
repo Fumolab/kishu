@@ -21,7 +21,7 @@
         "dev": "astro dev --host",
         "build": "astro build",
         "preview": "astro preview",
-        "prettier": "prettier --write --plugin-search-dir=. ."
+        "clean": "prettier --write --plugin-search-dir=. ."
     },
     "dependencies": {
         "@astrojs/svelte": "^1.0.2",
