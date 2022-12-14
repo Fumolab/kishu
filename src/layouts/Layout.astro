@@ -1,8 +1,7 @@
 ---
 export interface Props {
-    title: string;
+    title?: string;
 }
-
 const {title} = Astro.props;
 ---
 
@@ -13,7 +12,7 @@ const {title} = Astro.props;
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="generator" content={Astro.generator} />
-        <title>{title}</title>
+        <title>{title} - Kishu</title>
     </head>
     <body>
         <slot />
@@ -31,7 +30,7 @@ const {title} = Astro.props;
     }
     html {
         font-family: system-ui, sans-serif;
-        background-color: #f6f6f6;
+        background-color: white;
     }
     code {
         font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
